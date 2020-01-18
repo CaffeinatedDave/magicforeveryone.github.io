@@ -219,12 +219,12 @@ hr {
 
 
 #footer {
-    background-image: url(/img/footer-bg.jpg);
+    background-image: url(../img/footer-bg.jpg);
     background-size:cover;
     border-top: 3px solid #D91E36;
 }
 
-#footer .col-md-4 {
+#footer .footer-colour {
     padding:25px !important;
     background-color:#D91E36;
     color:#F5E9E2 !important;
@@ -232,12 +232,13 @@ hr {
     height: 415px;
 }
 
-#footer .col-md-4 p {
+#footer .footer-colour p {
     margin-bottom: 20px;
 }
 
-#footer .col-md-7 {
+#footer .footer-clear {
     padding:25px !important;
+    color: #D91E36;
 }
 
 #copyright {
