@@ -109,6 +109,7 @@ a {
 
 .navbar-dark, .bg-dark {
   background-color: #2E294E !important;
+  min-height: 60px;
 }
 
 @media (min-width: 992px) {
@@ -127,7 +128,7 @@ a {
     }
 }
 
-#top-panels, #top-panels {
+#top-panels, #top-panels-sm {
     padding-top:40px;
     padding-bottom: 10px;
 }
@@ -274,9 +275,9 @@ hr {
     background-color:#D91E36;
     font-weight: 500;
     color:#F5E9E2 !important;
-    padding:15px;
+    padding:12px;
     margin-bottom: 0px !important;
-    border-top-left-radius: 0px !important;
+    border-top-left-radius: 10px !important;
     border-top-right-radius: 10px !important;
 }
 
@@ -373,7 +374,9 @@ h4 {
     padding:25px !important;
     color: #D91E36;
 }
-
+#footer a {
+  color: #F5E9E2 !important;
+}
 #copyright {
     background-color:#D91E36;
     padding-top: 10px;

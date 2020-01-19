@@ -44,29 +44,16 @@
 
   <body>
     <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
-      <div class="navbar-header">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav justify-content-end">
-          <li class="nav-item">
-            <a class="nav-link current" href="#">HOME</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#aboutUs">ABOUT US</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#whatWeDo">WHAT WE DO</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#gallery">GALLERY</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">CONTACT</a>
-          </li>
+          <li class="nav-item"><a class="nav-link current" href="#">HOME</a></li>
+          <li class="nav-item"><a class="nav-link" href="#aboutUs">ABOUT US</a></li>
+          <li class="nav-item"><a class="nav-link" href="#whatWeDo">WHAT WE DO</a></li>
+          <li class="nav-item"><a class="nav-link" href="#gallery">GALLERY</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">CONTACT</a></li>
         </ul>
+      </div>
+      <div style="right: 10px; top: 10px; position: absolute;">
         <p class="social">
           <a href="callto:07703577727"><i class="fa fa-phone"></i></a>
           <a href="https://www.facebook.com/magicforeveryone"><i class="fa fa-facebook"></i></a>
@@ -94,14 +81,14 @@
         <div class="container" id="top-panels-sm">
           <h2><strong>WHAT</strong> WE <strong>OFFER</strong></h2>
           <hr/>
-          <div class="row" id="accordionExample">
+          <div class="row">
               <div class="col-12 top-panel">
-                  <a href="#" data-toggle="collapse" data-target=".collapseParties" aria-expanded="false" aria-controls="collapseParties">
+                  <a href="#" data-toggle="collapse" data-target=".collapseParties-sm" aria-expanded="false" aria-controls="collapseParties">
                       <h3><strong>Children's Parties</strong> <span class="pull-right"><i class="fa fa-arrow-circle-o-right"></i></span></h3>
                       <img src="./img/panel-1.jpg" class="img-responsive center-block" alt="">
                   </a>
               </div>
-              <div class="collapse collapseParties" data-parent="#top-panels">
+              <div class="collapse collapseParties-sm" data-parent="#top-panels-sm">
                 <div class="card card-body">
                   <h4>ONE HOUR PACKAGE</h4>
                   <p>The children are entertained with a interactive magic show staring Albert the naughty monkey puppet. For the grand finale, the birthday child will magically appear their very own birthday gift from Mr Crackers. The children are all given a balloon model to take home with them.</p>
@@ -117,12 +104,12 @@
                 </div>
               </div>
               <div class="col-12 top-panel">
-                <a href="#" data-toggle="collapse" data-target=".collapseFacePainting" aria-expanded="false" aria-controls="collapseFacePainting">
+                <a href="#" data-toggle="collapse" data-target=".collapseFacePainting-sm" aria-expanded="false" aria-controls="collapseFacePainting">
                   <h3><strong>Face Painting </strong> <span class="pull-right"><i class="fa fa-arrow-circle-o-right"></i></span></h3>
                   <img src="./img/panel-2.jpg" class="img-responsive center-block" alt="">
                 </a>
               </div>
-              <div class="collapse collapseFacePainting" data-parent="#top-panels">
+              <div class="collapse collapseFacePainting-sm" data-parent="#top-panels-sm">
                 <div class="card card-body">
                   <h4>FACE PAINTING AND GLITTER TATTOOS</h4>
                   <p>All of our face painters carry full public liability insurance and a current personal DBS. Our face painters regularly attend courses to further develop their skills and to remain up to date with changes and new products within the face painting world.</p>
@@ -139,12 +126,12 @@
                 </div>
               </div>
               <div class="col-12 top-panel">
-                <a href="#" data-toggle="collapse" data-target=".collapseCloseUp" aria-expanded="false" aria-controls="collapseCloseUp">
-                      <h3><strong>Close up Magic</strong> <span class="pull-right"><i class="fa fa-arrow-circle-o-right"></i></span></h3>
-                      <img src="./img/panel-3.jpg" class="img-responsive center-block" alt="">
-                  </a>
+                <a href="#" data-toggle="collapse" data-target=".collapseCloseUp-sm" aria-expanded="false" aria-controls="collapseCloseUp">
+                  <h3><strong>Close up Magic</strong> <span class="pull-right"><i class="fa fa-arrow-circle-o-right"></i></span></h3>
+                  <img src="./img/panel-3.jpg" class="img-responsive center-block" alt="">
+                </a>
               </div>
-              <div class="collapse collapseCloseUp" data-parent="#top-panels">
+              <div class="collapse collapseCloseUp-sm" data-parent="#top-panels-sm">
                 <div class="card card-body">
                   <h4>CLOSE UP/ TABLE MAGIC/ MEET & GREET MAGICIAN</h4>
                   <p>Keith is a fun professional full time entertainer with over 20 years experience. He has full public liability, a personal DBS certificate and is a member of Leamington and Warwick Magic Society and Equity.</p>
@@ -160,25 +147,25 @@
         <div class="container" id="top-panels">
           <h2><strong>WHAT</strong> WE <strong>OFFER</strong></h2>
           <hr/>
-          <div class="row" id="accordionExample">
-              <div class="col-md-4 top-panel">
-                  <a href="#" data-toggle="collapse" data-target=".collapseParties" aria-expanded="false" aria-controls="collapseParties">
-                      <h3><strong>Children's Parties</strong> <span class="pull-right"><i class="fa fa-arrow-circle-o-right"></i></span></h3>
-                      <img src="./img/panel-1.jpg" class="img-responsive center-block" alt="">
-                  </a>
-              </div>
-              <div class="col-md-4 top-panel">
-                <a href="#" data-toggle="collapse" data-target=".collapseFacePainting" aria-expanded="false" aria-controls="collapseFacePainting">
-                  <h3><strong>Face Painting </strong> <span class="pull-right"><i class="fa fa-arrow-circle-o-right"></i></span></h3>
-                  <img src="./img/panel-2.jpg" class="img-responsive center-block" alt="">
-                </a>
-              </div>
-              <div class="col-md-4 top-panel">
-                <a href="#" data-toggle="collapse" data-target=".collapseCloseUp" aria-expanded="false" aria-controls="collapseCloseUp">
-                      <h3><strong>Close up Magic</strong> <span class="pull-right"><i class="fa fa-arrow-circle-o-right"></i></span></h3>
-                      <img src="./img/panel-3.jpg" class="img-responsive center-block" alt="">
-                  </a>
-              </div>
+          <div class="row">
+            <div class="col-md-4 top-panel">
+              <a href="#" data-toggle="collapse" data-target=".collapseParties" aria-expanded="false" aria-controls="collapseParties">
+                <h3><strong>Children's Parties</strong></h3>
+                <img src="./img/panel-1.jpg" class="img-responsive center-block" alt="">
+              </a>
+            </div>
+            <div class="col-md-4 top-panel">
+              <a href="#" data-toggle="collapse" data-target=".collapseFacePainting" aria-expanded="false" aria-controls="collapseFacePainting">
+                <h3><strong>Face Painting </strong></h3>
+                <img src="./img/panel-2.jpg" class="img-responsive center-block" alt="">
+              </a>
+            </div>
+            <div class="col-md-4 top-panel">
+              <a href="#" data-toggle="collapse" data-target=".collapseCloseUp" aria-expanded="false" aria-controls="collapseCloseUp">
+                <h3><strong>Close up Magic</strong></h3>
+                <img src="./img/panel-3.jpg" class="img-responsive center-block" alt="">
+              </a>
+            </div>
           </div>
           <div class="collapse collapseParties" data-parent="#top-panels">
             <div class="card card-body">
@@ -271,8 +258,11 @@
   	          Coventry </br>
   	          CV2 3PB</p>
 
-            <p><i class="fa fa-phone"></i> 07703 577 727</p>
-            <p><i class="fa fa-envelope"></i> keith@magicforeveryone.net</p>
+
+            <p><i class="fa fa-phone"></i><a href="callto:07703577727"> 07703 577 727</a></p>
+            <p><i class="fa fa-envelope"></i><a href="mailto:keith@magicforeveryone.net"> keith@magicforeveryone.net</a></p>
+            <p><a href="https://www.facebook.com/magicforeveryone"><i class="fa fa-facebook"></i> Facebook</a></p>
+
 
             <p>We look forward to hearing from you.</p>
           </div>
@@ -386,14 +376,9 @@
           for (i = 0; i < slides.length; i++) {
             slides[i].style.display = "none";
           }
-          for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-          }
           slides[slideIndex-1].style.display = "block";
-          dots[slideIndex-1].className += " active";
-          captionText.innerHTML = dots[slideIndex-1].alt;
         }
-        </script>
+      </script>
     </div>
 	</body>
 </html>
